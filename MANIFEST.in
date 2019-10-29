@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include waroeng_bebek_selamet *.css
+recursive-include waroeng_bebek_selamet *.csv
+recursive-include waroeng_bebek_selamet *.html
+recursive-include waroeng_bebek_selamet *.ico
+recursive-include waroeng_bebek_selamet *.js
+recursive-include waroeng_bebek_selamet *.json
+recursive-include waroeng_bebek_selamet *.md
+recursive-include waroeng_bebek_selamet *.png
+recursive-include waroeng_bebek_selamet *.py
+recursive-include waroeng_bebek_selamet *.svg
+recursive-include waroeng_bebek_selamet *.txt
+recursive-exclude waroeng_bebek_selamet *.pyc
